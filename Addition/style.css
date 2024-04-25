@@ -1,0 +1,86 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.navbar-left li,
+.navbar-right li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar-left li a,
+.navbar-right li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-left li a:hover,
+.navbar-right li a:hover {
+    background-color: #555;
+}
+
+h1 {
+    text-align: center;
+}
+
+#game-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#equation {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#operand-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.operand-image {
+    width: 50px;
+    height: auto;
+}
+
+#answer-input {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#result {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#next-button {
+    display: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}

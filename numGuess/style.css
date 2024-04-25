@@ -1,0 +1,102 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.navbar-left li,
+.navbar-right li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar-left li a,
+.navbar-right li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-left li a:hover,
+.navbar-right li a:hover {
+    background-color: #555;
+}
+
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+}
+
+#game-container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instruction {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#guess-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+}
+
+#check-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: #e65c00;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #008000;
+}
+
+#child-image {
+    margin-top: 20px;
+    border-radius: 50%;
+
+}

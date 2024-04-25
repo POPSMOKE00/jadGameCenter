@@ -1,0 +1,95 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*NAv bar*/
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.navbar-left li,
+.navbar-right li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar-left li a,
+.navbar-right li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-left li a:hover,
+.navbar-right li a:hover {
+    background-color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.letter-container {
+    display: inline;
+    align-items: center;
+}
+
+.letter-select {
+    display: inline;
+    gap: 1px;
+}
+
+.letter-option {
+    padding: 1px 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.letter-option:hover {
+    background-color: #ddd;
+}
+
+
+
+canvas {
+    border: 1px solid black;
+}

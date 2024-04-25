@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="background.js"></script>
+</head>
+
+<body>
+    <div class="intro-container">
+        <div class="intro-text">
+            <img src="./Images/Main_logo.png" height="250vh" width="250vh">
+            <h1>Välkommen till Jads gaming center!!</h1>
+
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="./Images/Main_logo.png" height="140vh" width="140vh">
+    </div>
+    <div class="container">
+        <div class="row">
+            <a href="./letterSound/index.html" class="box">
+                <img src="./Images/ABCD.png" width="100vh" height="100vh">
+                <span>Letter sound</span>
+            </a>
+
+            <a href="./Addition/index.html" class="box">
+                <img src="https://icons.veryicon.com/png/o/business/general-icon-1/addition-and-subtraction-symbol.png"
+                    height="100vh" width="100vh">
+                <span>Additionsspel</span>
+            </a>
+            <a href="./xo/index.html" class="box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png"
+                    width="100vh" height="100vh">
+                <span>Tre i rad</span>
+            </a>
+        </div>
+        <div class="row">
+            <a href="./Rock/index.html" class="box">
+                <img src="https://cdn-icons-png.freepik.com/512/6688/6688580.png" width="100vh" height="100vh">
+                <span>Sten sax påse</span>
+            </a>
+            <a href="./numGuess/index.html" class="box">
+                <img src="https://play-lh.googleusercontent.com/3xxRQJyJ1p13CPi8YQsmvcaRHudgWhmMdsAaCkUPcZqZ1K-CuGiQxmKx2J-3obRe3Xo"
+                    width="100vh" height="100vh">
+                <span>Gissa nummer</span>
+            </a>
+            <a href="./letters/index.html" class="box">
+                <img src="https://i.stack.imgur.com/phoax.png" width="100vh" height="100vh">
+                <span>Bokstav ritning</span>
+            </a>
+        </div>
+    </div>
+    <div id="background-container"></div>
+
+    <h2 style="text-align: center;">Välj bakgrundsfärg</h2>
+    <div class="color-list-wrapper">
+        <div class="color-list">
+            <ul>
+                <li><a href="#" onclick="changeBackgroundColor('#ff000062')">
+                        <div class="color-box" style="background-color: #ff000062;"></div>Röd
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#ffa500')">
+                        <div class="color-box" style="background-color: #ffa500;"></div>Orange
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#ffff00')">
+                        <div class="color-box" style="background-color: #ffff00;"></div>Gul
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#008000')">
+                        <div class="color-box" style="background-color: #008000;"></div>Grön
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#0000ff')">
+                        <div class="color-box" style="background-color: #0000ff;"></div>Blå
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#4b0082')">
+                        <div class="color-box" style="background-color: #4b0082;"></div>Indigo
+                    </a></li>
+                <li><a href="#" onclick="changeBackgroundColor('#ee82ee')">
+                        <div class="color-box" style="background-color: #ee82ee;"></div>Lila
+                    </a></li>
+
+            </ul>
+        </div>
+    </div>
+    <br><br> <br> <br>
+
+    <audio id="background-music" loop>
+        <source src="./backgroundSound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+
+
+</body>
+
+</html>

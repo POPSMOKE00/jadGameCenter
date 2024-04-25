@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script src="../background.js"></script>
+    <div class="logo">
+        <a href="../index.html">
+            <img src="../Images/Main_logo.png" height="140vh" width="140vh">
+    </div>
+    </a>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <ul>
+                <li><a href="../index.html">Hem</a></li>
+                <li><a href="../about/index.html">Om</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="../letterSound/index.html">Letter sound</a></li>
+                <li><a href="../Addition/index.html">Additionspel</a></li>
+                <li><a href="../xo/index.html">Bokstav ritning</a></li>
+                <li><a href="../Rock/index.html">Sten sax påse </a></li>
+                <li><a href="../numGuess/index.html">Gissa nummer</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <h1>Tre i rad</h1>
+        <div class="board">
+            <div class="cell" onclick="place('0,0')" id="cell00"></div>
+            <div class="cell" onclick="place('0,1')" id="cell01"></div>
+            <div class="cell" onclick="place('0,2')" id="cell02"></div>
+            <div class="cell" onclick="place('1,0')" id="cell10"></div>
+            <div class="cell" onclick="place('1,1')" id="cell11"></div>
+            <div class="cell" onclick="place('1,2')" id="cell12"></div>
+            <div class="cell" onclick="place('2,0')" id="cell20"></div>
+            <div class="cell" onclick="place('2,1')" id="cell21"></div>
+            <div class="cell" onclick="place('2,2')" id="cell22"></div>
+        </div>
+        <button onclick="reset()">Starta om</button>
+    </div>
+
+
+</body>
+
+</html>
